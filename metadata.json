@@ -1,0 +1,15 @@
+{
+  "name": "Mention Notifier",
+  "uri": "https://www.portugal-a-programar.org/",
+  "description": "Notifies a user when he is mention in a post",
+  "version": "1.0",
+  "date": "2011-03-30",
+  "author": "Pedro Silva (a.k.a Scorch)",
+  "author_uri": "http://scorch.isgreat.org/",
+  "license": "GPLv2",
+  "update_uri": "https://raw.githubusercontent.com/pedrodilva(a.k.a scorch)/mentionnotifier/master/metadata.json",
+  "min_q2a": "1.4",
+  "min_php": "5.1.6"
+  "load_order": "after_db_init"
+}
+
