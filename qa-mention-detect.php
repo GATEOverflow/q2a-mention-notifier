@@ -136,7 +136,7 @@
 			
 			$pass = 1;
 			
-			//That's it. Now it's just nitificate the mentioned users :)
+			//That's it. Now it's just to notify the mentioned users :)
 			foreach ($users_id as $index => $value){
 				if (isset($value)){
 					$mention = "INSERT INTO ^mentions (to_id, from_id, question_id, post_id, post_type, date)
@@ -152,7 +152,7 @@
 								"parentid" => $questionid,
 								"parenttype" => $parenttype,
 								"post_type" => strtoupper($type[0]),
-								"time" => $time));
+								"time" => time()));
 					
 				}
 				$pass++;
